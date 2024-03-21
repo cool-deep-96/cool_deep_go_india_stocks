@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 const Sidebar = () => {
-    const [siderbarOpen, setSiderbarOpen] = useState<boolean>(true);
+    const [siderbarOpen, setSiderbarOpen] = useState<boolean>(false);
 
   return (
     <div className={`fixed left-0 top-0  lg:relative bg-sky-700 h-[100vh] text-white text-sm md:text-xl lg:text-2xl font-bold ${siderbarOpen? 'md:mr-8 w-[50vw] md:w-[30vw] ':'w-0'}`}>
