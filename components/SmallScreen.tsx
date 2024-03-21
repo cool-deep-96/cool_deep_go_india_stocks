@@ -13,10 +13,10 @@ const SmallScreen = () => {
         <div>
 
             <div className="w-[100vw] border-l-4 border-r-4 flex border-black hover:cursor-pointer -translate-x-[8px]">
-                <div className={`w-[48vw] my-1 py-2 text-lg text-white ${first ? 'bg-sky-950 border-red-600' : 'bg-sky-800 border-sky-800'}  text-center font-semibold border-b-4 `} onClick={() => setFirst(true)}>
+                <div className={`w-[50vw] my-1 py-2 text-lg text-white ${first ? 'bg-sky-950 border-red-600' : 'bg-sky-800 border-sky-800'}  text-center font-semibold border-b-4 `} onClick={() => setFirst(true)}>
                     Disscussion Forum
                 </div>
-                <div className={`w-[48vw] my-1 p-2 text-lg text-white ${first ? 'bg-sky-800 border-sky-800' : 'bg-sky-950 border-red-600'}  text-center font-semibold border-b-4 `} onClick={() => setFirst(false)}>
+                <div className={`w-[50vw] my-1 p-2 text-lg text-white ${first ? 'bg-sky-800 border-sky-800' : 'bg-sky-950 border-red-600'}  text-center font-semibold border-b-4 `} onClick={() => setFirst(false)}>
                     Market Strories
                 </div>
             </div>
